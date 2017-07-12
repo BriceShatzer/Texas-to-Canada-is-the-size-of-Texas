@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns:ns="http://earth.google.com/kml/2.0">
+  <Folder>
+    <open>1</open>
+    <Placemark>
+      <name>USA/CAN border (49th Parallel)</name>
+      <Point>
+        <coordinates>-103.041667,49.0</coordinates>
+      </Point>
+    </Placemark>    
+    <Placemark>
+      <name>Northern most point of Texas</name>
+      <Point>
+        <coordinates>-103.041667,36.500278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Southern most point of Texas</name>
+      <Point>
+        <coordinates>-97.3732,25.84</coordinates>
+      </Point>      
+    </Placemark>
+    <Placemark>
+      <name>Eastern most point of Texas</name>
+      <Point>
+        <coordinates>-93.5082,31.031</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Western most point of Texas</name>
+      <Point>
+        <coordinates> -106.645278,31.897222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Texas to Canada (864 miles)</name>
+      <description>
+        Texas North/South: 57 miles longer <br/>   
+        Texas East/West: 86 miles longer
+      </description>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>        
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-103.041667,36.500278,0 -103.041667,49.00,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Texas North/South (807 miles)</name>
+      <description>
+        Texas to Canada: 57 miles shorter <br/>   
+        Texas East/West: 29 miles longer
+      </description>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-103.041667,36.500278,0 -97.3732,25.84,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Texas East/West (778 miles)</name>
+      <description>
+        Texas to Canada: 86 miles shorter <br/>   
+        Texas North/South: 29 miles shorter
+      </description>
+      <LineString>        
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-106.645278,31.897222,0 -93.5082,31.031,0</coordinates>
+      </LineString>
+    </Placemark>      
+  </Folder>
+</kml>
+
